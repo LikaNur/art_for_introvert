@@ -1,0 +1,121 @@
+*{
+    font-family: 'IBM Plex Sans',Arial,sans-serif;
+    margin: 0;
+}
+
+hr {
+    margin-left: 0;
+    max-width: 40px;
+}
+  
+.jumbotron {
+    position: relative;
+    background-image: url("../img/prof.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  
+.jumbotron:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+#hero{
+    padding: 205px 0;
+}
+    
+.container {
+    padding: 75px 0;
+}
+    
+h1,
+.lead {
+    color: #fff;
+    padding-top: 50px;
+    line-height: 35px;
+} 
+
+.btn-warning {
+    background: #FFDA3C;
+    border: 0; 
+    margin: 40px;
+}
+   
+.btn-warning:hover {
+    background: darken(#1e1e1d, 7%);
+}
+
+#sec-about {
+    background-image: url("../img/design.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative; 
+  
+}
+
+#sec-about img {
+    max-width: 100%;
+    height: auto;
+}
+
+#sec-about::before { 
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(31, 30, 29, 0.6);
+}
+  
+#sec-about-hero {
+    padding: 300px 0;
+    position: relative; 
+    z-index: 1; 
+}
+
+#sec-about h1, 
+#sec-about p { 
+    color: #fff;
+    opacity: 0.9;
+}
+
+#sec-pricing-hero,
+#sec-testimonials-hero,
+#sec-contact-hero{
+    padding: 50px 0;
+}
+
+.card-title{
+    margin: 30px;
+}
+
+#carousel-indicators-color{
+    border-color:#1e1e1d;
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+      width: 100%;
+      max-width: 576px;
+    }
+  }
+  
+.footer {
+    background-image: url("../img/grey.jpg");
+    background-size: cover;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.footer .list-inline-item a .fa {
+    color: rgb(74, 73, 70);
+    font-size: 20px;
+    padding-left: 10px;
+}
+  
